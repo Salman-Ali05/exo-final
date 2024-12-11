@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Username Preference -->
+    <EditTextPreference
+        android:key="username"
+        android:title="User Name"
+        android:summary="Enter your username"
+        android:defaultValue="Default User"
+        android:dialogTitle="Set Username"
+        android:inputType="text" />
+
+    <!-- Notifications Toggle -->
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        android:title="Enable Notifications"
+        android:summary="Toggle to enable or disable notifications"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
